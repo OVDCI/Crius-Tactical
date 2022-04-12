@@ -1,0 +1,129 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Big Shoulders Text', cursive;
+    width: 100vw;
+    background: url("https://images.unsplash.com/photo-1541513982013-5dc4f56697f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+
+.Ser{
+    background: url("https://images.unsplash.com/photo-1639069422496-03416b5daa28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80") no-repeat center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+header {
+    width:100%;
+    .navbar-custom {
+        background-color: #76785E !important;
+        
+    }
+
+  
+    img {
+        object-fit: cover;
+        height: 32px;
+        width: 32px;
+      
+    }
+}
+
+
+li {
+   a { color: black !important;
+
+      font-size: 20px;
+
+   } 
+}
+.nav-pills {
+a:hover  {
+    color: gold !important;
+    font-size: 25px;
+    transition: 1s ;
+}
+}
+
+
+
+.background1 {
+    background: url(https://www.awattclass.com/plugins/show_image.php?id=1) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+ .Con {
+     background: url(https://images.unsplash.com/photo-1636136370671-7ec07f284a2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center;
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+     
+     
+ }
+
+ .container {
+     h2 {
+         color: gold;
+         text-shadow: 1px 1px black;
+     }
+ }
+
+ .container-fluid {
+     
+    label {
+        color: gold;
+         text-shadow: 1px 1px black;
+         font-size: 20px;
+    }
+ }
+
+.content {
+
+    
+
+    .title, p {
+        
+        text-shadow: 1px 1px black;
+        color: burlywood;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+   
+}
+
+#gif {
+    border-radius: 20px;
+}
+
+footer {
+    bottom: 0;
+    position:fixed;
+    width: 100vw;
+}
+
+
+
+.navbar-custom {
+    background-color: #76785E !important;
+}
